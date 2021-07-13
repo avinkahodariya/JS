@@ -1,0 +1,60 @@
+#heder{
+
+  
+    border-radius: 10px;
+    width: 1179px;
+  
+   
+    border-color: black;
+    border:10px
+}
+
+input{
+    text-align: right;
+    width:450px;
+
+    border-radius: 10px;
+    border-color: green;
+    padding: 15px;
+    
+   
+  
+
+ padding-left: 25px;
+}
+
+body{
+    text-align: center;
+}
+
+#equal{
+    color: blue;
+    border-radius: 1em;
+}
+.l{
+   margin-top: 5px;
+}
+#number{
+     
+    /* margin: auto; */
+    padding:10 10 10 10px;
+    
+}
+
+button{
+
+    width: 150px;
+    padding: 15 15 15 15px;
+    border-radius: 1em;
+    border-color: chocolate;
+    
+}
+.i{
+
+    width:100%
+ 
+}
+#c{
+    margin-left: 5px;
+}
+

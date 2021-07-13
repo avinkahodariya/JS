@@ -1,0 +1,53 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculater</title>
+    <link rel="stylesheet" href="cal.css" />
+  </head>
+  <body>
+    <div id="heder">
+      <!-- <input id="input" type="text" placeholder="0"><button id="c" value="c" onclick="clr()">C</button> -->
+    </div>
+    <div id="number">
+      <div class="l i">
+        <input id="input" type="text" placeholder="0" /><button
+          id="c"
+          value="c"
+          onclick="clr()"
+        >
+          C
+        </button>
+      </div>
+      <div class="l">
+        <button class="line1" value="1" onclick="btn(1)">1</button>
+        <button class="line1" value="2" onclick="btn(2)">2</button>
+        <button class="line1" value="3" onclick="btn(3)">3</button>
+        <button class="line1" value="/" onclick="op('/')">/</button>
+      </div>
+      <div class="l">
+        <button class="line2" value="4" onclick="btn(4)">4</button>
+        <button class="line2" value="5" onclick="btn(5)">5</button>
+        <button class="line2" value="6" onclick="btn(6)">6</button>
+        <button class="line2" value="-" onclick="op('-')">-</button>
+      </div>
+
+      <div class="l">
+        <button class="line3" value="7" onclick="btn(7)">7</button>
+        <button class="line3" value="8" onclick="btn(8)">8</button>
+        <button class="line3" value="9" onclick="btn(9)">9</button>
+        <button class="line3" value="+" onclick="op('+')">+</button>
+      </div>
+
+      <div class="l">
+        <button class="line4" value="." onclick="btn('.')">.</button>
+        <button class="line4" value="0" onclick="btn(0)">0</button>
+        <button class="line4" value="=" onclick="equal()">=</button>
+        <button class="line4" value="*" onclick="op('*')">*</button>
+      </div>
+    </div>
+
+    <script src="strcal.js"></script>
+  </body>
+</html>
