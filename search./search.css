@@ -1,0 +1,100 @@
+#div1{
+    border-radius: 20px;
+    border-style: solid;
+    margin-top: 30px;
+    margin:auto;
+   
+    padding:50px;
+    background-color: antiquewhite;
+    /* text-align: center; */
+    width: 50%;
+    
+   
+}
+
+body{
+  text-align: center;
+  width: 75%;
+  margin:auto;
+  padding:20px
+}
+
+input{
+    text-align: center;
+    border-style: solid;
+   
+
+    border-radius: 1em;
+    border-color: black;
+    /* Prevent double borders */
+
+    background-color: rgb(235, 232, 229);
+    outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     display: inline;
+}
+
+button{
+    border-radius: 1em;
+    border-color: black;
+    border-style: solid;
+    letter-spacing: 0.5;
+   margin-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+  display: inline;
+
+
+}
+button:hover{
+    
+    transition: 1s;
+    transform: scale(1.2);
+
+}
+
+#div2{
+    text-align: center;
+
+    border-radius: 10px;
+    border-style: solid;
+    margin-top: 30px;
+    /* padding: center; */
+    background-color:rgb(235, 232, 229);
+    background-image: url("logo.png") ;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    background-size:contain;
+
+}
+
+li{
+ 
+    background-color: bisque;
+ 
+
+    border: solid;
+   
+    padding: 10 10 ;
+    border-radius: 1em;
+    margin-top:20px;
+    margin-right: 35px;
+    background: url(logo.jpg) center fixed ;
+background-position: right bottom, left top;
+background-repeat: no-repeat, repeat;
+background-size: cover;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font: bolder;
+
+
+  
+   
+   
+    /* width: 500px;
+} */}
+
+input:hover{
+    transform:scale(1.05);
+    transition: 1s
+}
+
